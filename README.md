@@ -40,7 +40,7 @@
 | 产品 | 状态 | 一句话 |
 |---|---|---|
 | [**AtlasCode**](https://github.com/vincentlau2046/AtlasCode) | ✅ v0.1.87 | 面向国产计算生态的通用 Coding Agent：CLI + TUI，完整 AI 辅助编程能力，昇腾 NPU 域包可插拔叠加 |
-| [**InferFabric**](https://github.com/vincentlau2046/InferFabric) | ✅ v7.10.4 | 为 Blackwell 单卡设计的本地推理平台 + 统一 Gateway：模型即插件，本地与云端统一，一个 API 管所有 |
+| [**InferFabric**](https://github.com/vincentlau2046/InferFabric) | ✅ v7.10.4 | 个人端侧 AI 工作站：本地推理与云厂商 Gateway 统一平台，模型即插件，一个 API 管所有；x86 为 NVIDIA Blackwell，Mac 为 Apple Silicon（MacFabric） |
 | [**MacFabric**](https://github.com/vincentlau2046/MacFabric) | 🚧 开发中 | InferFabric 的 Apple Silicon 定制版：端侧能力（对话/看图/嵌入/重排/ASR/TTS/OCR/文生图）+ 云端聚合，双协议统一 `:8999`，原生 SwiftUI App，单 dmg 零终端安装 |
 | [**AtlasWork MaaS**](https://atlaswork.cn/maas/) | ✅ 已上线 | 一个 API，管所有模型：OpenAI 与 Anthropic 双协议同端口，云端大模型统一路由，一个密钥全部打通 |
 | **AtlasOffice** | 🚧 规划中 | 文档办公产品，建在同一引擎之上 |
