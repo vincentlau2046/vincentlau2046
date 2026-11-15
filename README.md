@@ -11,6 +11,7 @@
 [![atlaswork.cn](https://img.shields.io/badge/atlaswork.cn-1D6FE0?style=for-the-badge&labelColor=0F4FB3)](https://atlaswork.cn)
 [![AtlasCode](https://img.shields.io/badge/AtlasCode-v0.1.87-0B7A62?style=for-the-badge)](https://github.com/vincentlau2046/AtlasCode)
 [![InferFabric](https://img.shields.io/badge/InferFabric-v7.10.4-0B7A62?style=for-the-badge)](https://github.com/vincentlau2046/InferFabric)
+[![MacFabric](https://img.shields.io/badge/MacFabric-开发中-45566B?style=for-the-badge)](https://github.com/vincentlau2046/MacFabric)
 [![MaaS](https://img.shields.io/badge/MaaS-一个_API_管所有模型-45566B?style=for-the-badge)](https://atlaswork.cn/maas/)
 
 </div>
@@ -27,8 +28,8 @@
 | **产品应用层** | **AtlasCode** · AtlasOffice（规划中）· AtlasComic（规划中） |
 | **Agent 引擎层** | AtlasHarness 引擎 · 多智能体编排 · Skills 运行时 |
 | **技能层** | 昇腾三总纲路由 · 39 条技能路径 · 官方 Marketplace 自动装配 |
-| **推理网关层** | **InferFabric** · 9 引擎适配器 · OpenAI / Anthropic 双协议 · 三态 GPU 状态机 |
-| **算力层** | NVIDIA Blackwell（RTX 5090 · NVFP4）· 昇腾 NPU 工具链 · 云端 9 预设 |
+| **推理网关层** | **InferFabric** · **MacFabric**（Mac 定制）· 9 引擎适配器 · OpenAI / Anthropic 双协议 · 三态 GPU 状态机 |
+| **算力层** | NVIDIA Blackwell（RTX 5090 · NVFP4）· Apple Silicon（M 系列 · MLX）· 昇腾 NPU 工具链 · 云端 9 预设 |
 
 > 自上而下：场景驱动产品，产品建在同一个引擎上；技能按需装配，推理统一供给，算力本地与云端一体。
 
@@ -40,6 +41,7 @@
 |---|---|---|
 | [**AtlasCode**](https://github.com/vincentlau2046/AtlasCode) | ✅ v0.1.87 | 面向国产计算生态的通用 Coding Agent：CLI + TUI，完整 AI 辅助编程能力，昇腾 NPU 域包可插拔叠加 |
 | [**InferFabric**](https://github.com/vincentlau2046/InferFabric) | ✅ v7.10.4 | 为 Blackwell 单卡设计的本地推理平台 + 统一 Gateway：模型即插件，本地与云端统一，一个 API 管所有 |
+| [**MacFabric**](https://github.com/vincentlau2046/MacFabric) | 🚧 开发中 | InferFabric 的 Apple Silicon 定制版：端侧能力（对话/看图/嵌入/重排/ASR/TTS/OCR/文生图）+ 云端聚合，双协议统一 `:8999`，原生 SwiftUI App，单 dmg 零终端安装 |
 | [**AtlasWork MaaS**](https://atlaswork.cn/maas/) | ✅ 已上线 | 一个 API，管所有模型：OpenAI 与 Anthropic 双协议同端口，云端大模型统一路由，一个密钥全部打通 |
 | **AtlasOffice** | 🚧 规划中 | 文档办公产品，建在同一引擎之上 |
 | **AtlasComic** | 🚧 规划中 | 漫画创作产品，建在同一引擎之上 |
@@ -58,6 +60,7 @@ npm i -g @atlasharness/atlascode
 ```
 
 - [InferFabric](https://github.com/vincentlau2046/InferFabric)：Python 单文件应用，OpenAI + Anthropic 双协议 `:8999/v1`，本地与云端同一路由
+- [MacFabric](https://github.com/vincentlau2046/MacFabric)（开发中）：Mac 端侧聚合，SwiftUI App · 单 dmg 零终端安装
 - [AtlasWork MaaS](https://atlaswork.cn/maas/)：登录控制台获取 `sk-atlas-` 密钥，任意 OpenAI SDK / Claude Code 直连
 
 ---
