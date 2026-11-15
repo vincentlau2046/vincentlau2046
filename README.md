@@ -11,7 +11,7 @@
 [![atlaswork.cn](https://img.shields.io/badge/atlaswork.cn-1D6FE0?style=for-the-badge&labelColor=0F4FB3)](https://atlaswork.cn)
 [![AtlasCode](https://img.shields.io/badge/AtlasCode-v0.1.112-0B7A62?style=for-the-badge)](https://github.com/vincentlau2046/AtlasCode)
 [![InferFabric](https://img.shields.io/badge/InferFabric-v7.10.5-0B7A62?style=for-the-badge)](https://github.com/vincentlau2046/InferFabric)
-[![MacFabric](https://img.shields.io/badge/MacFabric-开发中-45566B?style=for-the-badge)](https://github.com/vincentlau2046/MacFabric)
+[![MacFabric](https://img.shields.io/badge/MacFabric-已安装-0B7A62?style=for-the-badge)](https://github.com/vincentlau2046/MacFabric)
 [![MaaS](https://img.shields.io/badge/MaaS-一个_API_管所有模型-45566B?style=for-the-badge)](https://atlaswork.cn/maas/)
 
 </div>
@@ -41,7 +41,7 @@
 |---|---|---|
 | [**AtlasCode**](https://github.com/vincentlau2046/AtlasCode) | ✅ v0.1.112 | 面向国产计算生态的通用 Coding Agent：CLI + TUI，完整 AI 辅助编程能力，昇腾 NPU 域包可插拔叠加 |
 | [**InferFabric**](https://github.com/vincentlau2046/InferFabric) | ✅ v7.10.5 | 个人端侧 AI 工作站：本地推理与云厂商 Gateway 统一平台，模型即插件，一个 API 管所有；x86 为 NVIDIA Blackwell，Mac 为 Apple Silicon（MacFabric） |
-| [**MacFabric**](https://github.com/vincentlau2046/MacFabric) | 🚧 开发中 | InferFabric 的 Apple Silicon 定制版：端侧能力（对话/看图/嵌入/重排/ASR/TTS/OCR/文生图）+ 云端聚合，双协议统一 `:8999`，原生 SwiftUI App，单 dmg 零终端安装 |
+| [**MacFabric**](https://github.com/vincentlau2046/MacFabric) | ✅ 已安装 | InferFabric 的 Apple Silicon 定制版：端侧能力（对话/看图/嵌入/重排/ASR/TTS/OCR/文生图）+ 云端聚合，双协议统一 `:8999`，原生 SwiftUI App，单 dmg 零终端安装 |
 | [**AtlasWork MaaS**](https://atlaswork.cn/maas/) | ✅ 已上线 | 一个 API，管所有模型：OpenAI 与 Anthropic 双协议同端口，云端大模型统一路由，一个密钥全部打通 |
 | **AtlasOffice** | 🚧 规划中 | 文档办公产品，建在同一引擎之上 |
 | **AtlasComic** | 🚧 规划中 | 漫画创作产品，建在同一引擎之上 |
@@ -60,7 +60,7 @@ npm i -g @atlasharness/atlascode
 ```
 
 - [InferFabric](https://github.com/vincentlau2046/InferFabric)：Python 单文件应用，OpenAI + Anthropic 双协议 `:8999/v1`，本地与云端同一路由
-- [MacFabric](https://github.com/vincentlau2046/MacFabric)（开发中）：Mac 端侧聚合，SwiftUI App · 单 dmg 零终端安装
+- [MacFabric](https://github.com/vincentlau2046/MacFabric)（源码已安装）：Mac 端侧聚合，SwiftUI App · 单 dmg 零终端安装
 - [AtlasWork MaaS](https://atlaswork.cn/maas/)：登录控制台获取 `sk-atlas-` 密钥，任意 OpenAI SDK / Claude Code 直连
 
 ---
