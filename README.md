@@ -9,8 +9,8 @@
 从推理底座到 Coding Agent，从昇腾工具链到本地与云端统一网关，一个产品家族全部打通。
 
 [![atlaswork.cn](https://img.shields.io/badge/atlaswork.cn-1D6FE0?style=for-the-badge&labelColor=0F4FB3)](https://atlaswork.cn)
-[![AtlasCode](https://img.shields.io/badge/AtlasCode-v0.1.87-0B7A62?style=for-the-badge)](https://github.com/vincentlau2046/AtlasCode)
-[![InferFabric](https://img.shields.io/badge/InferFabric-v7.10.4-0B7A62?style=for-the-badge)](https://github.com/vincentlau2046/InferFabric)
+[![AtlasCode](https://img.shields.io/badge/AtlasCode-v0.1.112-0B7A62?style=for-the-badge)](https://github.com/vincentlau2046/AtlasCode)
+[![InferFabric](https://img.shields.io/badge/InferFabric-v7.10.5-0B7A62?style=for-the-badge)](https://github.com/vincentlau2046/InferFabric)
 [![MacFabric](https://img.shields.io/badge/MacFabric-开发中-45566B?style=for-the-badge)](https://github.com/vincentlau2046/MacFabric)
 [![MaaS](https://img.shields.io/badge/MaaS-一个_API_管所有模型-45566B?style=for-the-badge)](https://atlaswork.cn/maas/)
 
@@ -39,8 +39,8 @@
 
 | 产品 | 状态 | 一句话 |
 |---|---|---|
-| [**AtlasCode**](https://github.com/vincentlau2046/AtlasCode) | ✅ v0.1.87 | 面向国产计算生态的通用 Coding Agent：CLI + TUI，完整 AI 辅助编程能力，昇腾 NPU 域包可插拔叠加 |
-| [**InferFabric**](https://github.com/vincentlau2046/InferFabric) | ✅ v7.10.4 | 个人端侧 AI 工作站：本地推理与云厂商 Gateway 统一平台，模型即插件，一个 API 管所有；x86 为 NVIDIA Blackwell，Mac 为 Apple Silicon（MacFabric） |
+| [**AtlasCode**](https://github.com/vincentlau2046/AtlasCode) | ✅ v0.1.112 | 面向国产计算生态的通用 Coding Agent：CLI + TUI，完整 AI 辅助编程能力，昇腾 NPU 域包可插拔叠加 |
+| [**InferFabric**](https://github.com/vincentlau2046/InferFabric) | ✅ v7.10.5 | 个人端侧 AI 工作站：本地推理与云厂商 Gateway 统一平台，模型即插件，一个 API 管所有；x86 为 NVIDIA Blackwell，Mac 为 Apple Silicon（MacFabric） |
 | [**MacFabric**](https://github.com/vincentlau2046/MacFabric) | 🚧 开发中 | InferFabric 的 Apple Silicon 定制版：端侧能力（对话/看图/嵌入/重排/ASR/TTS/OCR/文生图）+ 云端聚合，双协议统一 `:8999`，原生 SwiftUI App，单 dmg 零终端安装 |
 | [**AtlasWork MaaS**](https://atlaswork.cn/maas/) | ✅ 已上线 | 一个 API，管所有模型：OpenAI 与 Anthropic 双协议同端口，云端大模型统一路由，一个密钥全部打通 |
 | **AtlasOffice** | 🚧 规划中 | 文档办公产品，建在同一引擎之上 |
@@ -48,7 +48,7 @@
 
 ## 硬指标
 
-| **1981** | **9** | **600K+** | **91.7s → 9.77s** |
+| **1983** | **9** | **600K+** | **91.7s → 9.77s** |
 |:---:|:---:|:---:|:---:|
 | 项测试全绿（全量回归） | 引擎适配器：vLLM / NInfer / SGLang / Ollama / ComfyUI 等 | token KV 池 · MTP 投机解码 · NVFP4 单卡 27B | 重启收养拒连时间（SIGTERM 有界排空 + 三态引擎收养） |
 
